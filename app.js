@@ -56,7 +56,7 @@ harcamaFormu.addEventListener("submit", (e) => {
   e.preventDefault(); // reload u engeller
 
   const yeniHarcama = {
-    id: new Date().getTime(),
+    id: new Date().getTime(), // basit şeylerde unique id oluşturmak için kullanılabilir
     // tarih: tarihInput.value,
     tarih: new Date(tarihInput.value).toLocaleDateString(),
     alan: harcamaAlaniInput.value,
