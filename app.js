@@ -75,7 +75,7 @@ harcamaFormu.addEventListener("submit", (e) => {
 
 //Harcamayı Dom'a yaz
 
-const harcamayiDomaYaz = ({ id, miktar, tarih, alan }) => {
+const harcamayiDomaYaz = ({ id, miktar, tarih, alan }) => { // parametre olarak alırken (havada) destruct ettik.
   // const {id, miktar, tarih,alan} = yeniHarcama //destruct the data
 
   //innerHTML ile
